@@ -1,23 +1,49 @@
+# Eclipse files
+.project
+.classpath
+.settings
+
+# Intellij Idea
+.Idea
+*.iml
+
+# Target folders
 target/
+build/
+out/
+
+## Vim ##
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+## Secrets ##
+client-secret.json
+
+
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
-.classpath
 .factorypath
-.project
-.settings
+
 .springBeans
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
 *.ipr
 
 ### NetBeans ###
 nbproject/private/
-build/
+
 nbbuild/
 dist/
 nbdist/
@@ -41,7 +67,7 @@ nbdist/
 /test-report/
 /target
 /target/*
-/.idea
+
 
 /*/target
 /*/target/*
